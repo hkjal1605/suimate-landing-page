@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Mona Sans';
+  src:
+    url('./fonts/Mona-Sans.woff2') format('woff2 supports variations'),
+    url('./fonts/Mona-Sans.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
+
+html {
+  font-family: 'Mona Sans';
+}
+
+body {
+  background-color: #000;
+  position: relative;
+}
+
+@layer utilities {
+  .font-stretch-condensed {
+    font-stretch: 75%;
+  }
+
+  .font-stretch-normal {
+    font-stretch: 100%;
+  }
+
+  .font-stretch-wide {
+    font-stretch: 125%;
+  }
+
+  .hero-section {
+    background: url('/assets/images/hero-bg.png') no-repeat center center;
+    background-size: cover;
+  }
+
+  .benefits-card-1 {
+    background: url('/assets/images/benefits-1.png') no-repeat center center;
+    background-size: cover;
+  }
+
+  .benefits-card-2 {
+    background: url('/assets/images/benefits-2.png') no-repeat center center;
+    background-size: cover;
+  }
+
+  .benefits-card-3 {
+    background: url('/assets/images/benefits-3.png') no-repeat center center;
+    background-size: cover;
+  }
+
+  .benefits-card-4 {
+    background: url('/assets/images/benefits-1.png') no-repeat center center;
+    background-size: cover;
+  }
+}
