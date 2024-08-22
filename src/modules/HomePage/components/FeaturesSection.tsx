@@ -1,9 +1,11 @@
 'use client';
 
-import PrimaryButton from '@/components/PrimaryButton';
-import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
+
+import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
+
+import PrimaryButton from '@/components/PrimaryButton';
 import 'swiper/css';
 
 const FeatureOptions = [
@@ -97,7 +99,7 @@ const FeaturesSection = () => {
               >
                 {option.key}. {option.title}
               </p>
-              <div className="w-full min-h-px bg-black-500"></div>
+              <div className="w-full min-h-px bg-black-500" />
               <div className="flex flex-col items-start justify-start pl-6 gap-2">
                 {option.description.map((desc) => (
                   <div
@@ -120,8 +122,8 @@ const FeaturesSection = () => {
       </div>
       <div className="w-[40%] bg-black-1000 bg-opacity-20 h-[80%] p-5 flex justify-center items-center relative">
         <Swiper className="h-full bg-black-1000" loop>
-          {FeatureOptions.map(() => (
-            <SwiperSlide>
+          {FeatureOptions.map((option) => (
+            <SwiperSlide key={option.key}>
               <Image
                 src="/assets/images/features/1.png"
                 width={0}
