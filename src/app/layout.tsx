@@ -57,20 +57,17 @@ export default function RootLayout(props: {
       />
       <meta property="og:image" content="https://suimate.trade/meta.webp" />
 
-      <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://suimate.trade/" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:url" content="https://suimate.trade/" />
       <meta
-        property="twitter:title"
+        name="twitter:title"
         content="SuiMate - DeFi Traders Analytics on SUI"
       />
       <meta
-        property="twitter:description"
+        name="twitter:description"
         content="Discover and analyze on-chain trading activity with SuiMate, designed for perpetual and spot DEXs on the Sui blockchain. Explore trader performance, evaluate strategies, and gain insights into market trends effortlessly. Don't be a noob trader your whole life, join SuiMate today!"
       />
-      <meta
-        property="twitter:image"
-        content="https://suimate.trade/meta.webp"
-      />
+      <meta name="twitter:image" content="https://suimate.trade/meta.webp" />
       <body>
         <ProgressBarProvider>
           <div className="relative w-full h-full flex flex-col items-center justify-center">
