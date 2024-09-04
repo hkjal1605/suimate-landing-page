@@ -14,7 +14,7 @@ const Footer = () => {
         </p>
       </div>
       <p className="text-xs text-black-900 font-stretch-wide">
-        SuiMate | DeFi Traders Analytics
+        insiDeX | DeFi Traders Analytics
       </p>
       <div className="flex justify-end items-center gap-1">
         <p className="text-xs text-black-800 font-stretch-wide">

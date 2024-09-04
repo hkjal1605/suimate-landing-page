@@ -2,7 +2,6 @@ import React from 'react';
 
 import AboutSection from './components/AboutSection';
 import BenefitsSection from './components/BenefitsSection';
-import ExtraFooter from './components/ExtraFooter';
 import FeaturesSection from './components/FeaturesSection';
 import Footer from './components/Footer';
 import HeroSection from './components/HeroSection';
@@ -15,7 +14,7 @@ const HomePageModule = () => {
       <FeaturesSection />
       <BenefitsSection />
       <Footer />
-      <ExtraFooter />
+      {/* <ExtraFooter /> */}
     </div>
   );
 };

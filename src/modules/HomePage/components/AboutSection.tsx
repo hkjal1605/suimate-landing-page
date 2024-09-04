@@ -12,7 +12,7 @@ const AboutSection = () => {
           <p className="uppercase text-sm text-black-100">About</p>
         </div>
         <p className="whitespace-nowrap text-4xl text-black-100">
-          What is SuiMate?
+          What is insiDeX?
         </p>
         <p className="whitespace-nowrap text-black-300 text-opacity-80 text-xl">
           Built to enable users to analyze and get insights <br /> on DeFi

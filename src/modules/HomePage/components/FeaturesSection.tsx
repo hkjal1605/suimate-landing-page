@@ -80,7 +80,7 @@ const FeaturesSection = () => {
           <p className="uppercase text-sm text-black-1000">Features</p>
         </div>
         <p className="whitespace-nowrap text-4xl text-black-1000">
-          Unlock the Power of SuiMate
+          Unlock the Power of insiDeX
         </p>
         <PrimaryButton text="Launch App" />
         <div className="flex flex-col items-start justify-center gap-8 mt-5">

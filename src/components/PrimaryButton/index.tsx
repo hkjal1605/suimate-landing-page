@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 
 interface IPropType {
@@ -13,7 +15,10 @@ const PrimaryButton = (props: IPropType) => {
   return (
     <button
       className={`${theme === 'dark' ? 'bg-black-100 text-black-1000' : 'bg-black-1000 text-black-100'} text-sm py-1.5 px-5 rounded cursor-pointer border-none outline-none z-50`}
-      onClick={onClick}
+      onClick={() => {
+        if (onClick) onClick();
+        window.open('https://app.insidex.trade', '_blank');
+      }}
       type="button"
     >
       {children || text}

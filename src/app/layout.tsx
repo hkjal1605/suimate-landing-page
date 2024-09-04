@@ -38,36 +38,36 @@ export default function RootLayout(props: {
 }) {
   return (
     <html lang={props.params.locale}>
-      <title>SuiMate - DeFi Traders Analytics on SUI</title>
-      <meta name="title" content="SuiMate - DeFi Traders Analytics on SUI" />
+      <title>insiDeX - DeFi Traders Analytics on SUI</title>
+      <meta name="title" content="insiDeX - DeFi Traders Analytics on SUI" />
       <meta
         name="description"
-        content="Discover and analyze on-chain trading activity with SuiMate, designed for perpetual and spot DEXs on the Sui blockchain. Explore trader performance, evaluate strategies, and gain insights into market trends effortlessly. Don't be a noob trader your whole life, join SuiMate today!"
+        content="Discover and analyze on-chain trading activity with insiDeX, designed for perpetual and spot DEXs on the Sui blockchain. Explore trader performance, evaluate strategies, and gain insights into market trends effortlessly. Don't be a noob trader your whole life, join insiDeX today!"
       />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://suimate.trade/" />
+      <meta property="og:url" content="https://insiDeX.trade/" />
       <meta
         property="og:title"
-        content="SuiMate - DeFi Traders Analytics on SUI"
+        content="insiDeX - DeFi Traders Analytics on SUI"
       />
       <meta
         property="og:description"
-        content="Discover and analyze on-chain trading activity with SuiMate, designed for perpetual and spot DEXs on the Sui blockchain. Explore trader performance, evaluate strategies, and gain insights into market trends effortlessly. Don't be a noob trader your whole life, join SuiMate today!"
+        content="Discover and analyze on-chain trading activity with insiDeX, designed for perpetual and spot DEXs on the Sui blockchain. Explore trader performance, evaluate strategies, and gain insights into market trends effortlessly. Don't be a noob trader your whole life, join insiDeX today!"
       />
-      <meta property="og:image" content="https://suimate.trade/meta.webp" />
+      <meta property="og:image" content="https://insiDeX.trade/meta.webp" />
 
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:url" content="https://suimate.trade/" />
+      <meta name="twitter:url" content="https://insiDeX.trade/" />
       <meta
         name="twitter:title"
-        content="SuiMate - DeFi Traders Analytics on SUI"
+        content="insiDeX - DeFi Traders Analytics on SUI"
       />
       <meta
         name="twitter:description"
-        content="Discover and analyze on-chain trading activity with SuiMate, designed for perpetual and spot DEXs on the Sui blockchain. Explore trader performance, evaluate strategies, and gain insights into market trends effortlessly. Don't be a noob trader your whole life, join SuiMate today!"
+        content="Discover and analyze on-chain trading activity with insiDeX, designed for perpetual and spot DEXs on the Sui blockchain. Explore trader performance, evaluate strategies, and gain insights into market trends effortlessly. Don't be a noob trader your whole life, join insiDeX today!"
       />
-      <meta name="twitter:image" content="https://suimate.trade/meta.webp" />
+      <meta name="twitter:image" content="https://insiDeX.trade/meta.webp" />
       <body>
         <ProgressBarProvider>
           <div className="relative w-full h-full flex flex-col items-center justify-center">
