@@ -7,6 +7,7 @@ import BenefitsSection from './components/BenefitsSection';
 import FeaturesSection from './components/FeaturesSection';
 import Footer from './components/Footer';
 import HeroSection from './components/HeroSection';
+import Links from './components/Links';
 
 const HomePageModule = () => {
   // const [isClient, setIsClient] = useState(false);
@@ -34,6 +35,7 @@ const HomePageModule = () => {
       <FeaturesSection />
       <BenefitsSection />
       <Footer />
+      <Links />
       {/* <ExtraFooter /> */}
     </div>
   );

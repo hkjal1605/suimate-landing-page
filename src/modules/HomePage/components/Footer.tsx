@@ -6,7 +6,7 @@ import PrimaryButton from '@/components/PrimaryButton';
 
 const Footer = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center bg-black-100">
+    <div className="w-full flex flex-col items-center justify-center bg-transparent">
       <div className="relative w-full h-screen flex flex-col items-center justify-start pt-[18%] gap-1">
         <Image
           alt="footer-mockup"
