@@ -1,6 +1,8 @@
 import React from 'react';
 
-// import AboutSection from './components/AboutSection';
+import Image from 'next/image';
+
+import AboutSection from './components/AboutSection';
 // import BenefitsSection from './components/BenefitsSection';
 // import FeaturesSection from './components/FeaturesSection';
 // import Footer from './components/Footer';
@@ -8,10 +10,21 @@ import HeroSection from './components/HeroSection';
 
 const HomePageModule = () => {
   return (
-    <div className="w-full">
+    <div className="w-full min-h-[50000px] relative">
       <HeroSection />
-      {/* <AboutSection />
-      <FeaturesSection />
+      <div className="w-screen fixed top-[calc(100vh-400px)] 2xl:top-[calc(100vh-600px)] left-[50%] translate-x-[-50%] z-[50]">
+        <Image
+          src="/assets/images/hero-mockup.webp"
+          alt="hero-mockup"
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="z-[50] h-[400px] 2xl:h-[600px]"
+          style={{ width: '100%', objectFit: 'cover' }}
+        />
+      </div>
+      <AboutSection />
+      {/* <FeaturesSection />
       <BenefitsSection />
       <Footer /> */}
       {/* <ExtraFooter /> */}

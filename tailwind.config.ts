@@ -53,6 +53,28 @@ export default {
           200: '#2986ff',
           100: '#0201af'
         }
+      },
+      keyframes: {
+        'fade-in': {
+          '0%': {
+            opacity: '0'
+          },
+          '100%': {
+            opacity: '100'
+          }
+        },
+        'fade-out': {
+          '0%': {
+            opacity: '100'
+          },
+          '100%': {
+            opacity: '0'
+          }
+        }
+      },
+      animation: {
+        fadeIn: 'fade-in 0.5s ease-in-out',
+        fadeOut: 'fade-out 0.5s ease-in-out'
       }
     }
   },

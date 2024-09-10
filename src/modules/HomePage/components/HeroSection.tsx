@@ -1,12 +1,8 @@
 import React from 'react';
 
-import Image from 'next/image';
-
-import PrimaryButton from '@/components/PrimaryButton';
-
 const HeroSection = () => {
   return (
-    <div className="hero-section w-full flex flex-col h-auto justify-start items-center pt-[150px] gap-4">
+    <div className="hero-section w-full flex flex-col min-h-screen max-h-auto justify-start items-center pt-[150px] xl:pt-[12vh] 2xl:pt-[25vh] gap-4 fixed top-0 z-10">
       <div className="bg-black-1000 bg-opacity-15 py-1.5 px-3 rounded-full -mb-3">
         <p className="text-sm text-black-1000">Meet insiDeX</p>
       </div>
@@ -17,15 +13,6 @@ const HeroSection = () => {
         insiDeX lets you analyze, copy, and gain insights into Sui DeFi
         activity.
       </p>
-      <PrimaryButton text="Launch App" />
-      <Image
-        src="/assets/images/hero-mockup.webp"
-        alt="hero-mockup"
-        width={0}
-        height={0}
-        sizes="100vw"
-        style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
-      />
     </div>
   );
 };
