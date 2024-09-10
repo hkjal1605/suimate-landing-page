@@ -89,8 +89,8 @@ const AboutSection = () => {
   // );
 
   return (
-    <div className="flex w-full h-screen justify-center items-start py-16 bg-black-1000 overflow-hidden">
-      <div className="w-full h-full flex justify-between items-start max-w-[1250px] gap-10 animate-fadeIn transition-all duration-300">
+    <div className="flex w-full h-screen justify-center items-start py-16 px-4 lg:px-0 bg-black-1000 overflow-hidden">
+      <div className="w-full h-full flex flex-col lg:flex-row justify-between items-start max-w-[1250px] gap-10 animate-fadeIn transition-all duration-300">
         <div className="flex flex-col items-start justify-start gap-5 pt-[72px]">
           <div className="px-2 py-0.5 bg-black-200 bg-opacity-15 rounded-full">
             <p className="uppercase text-sm text-black-100">About</p>
@@ -105,7 +105,7 @@ const AboutSection = () => {
           </p>
           <PrimaryButton text="Check the app now" theme="dark" />
         </div>
-        <div className="min-h-full max-h-full w-full flex justify-end items-end bg-[#f1f1f1] rounded-2xl overflow-hidden">
+        <div className="lg:min-h-full lg:max-h-full w-full flex justify-end items-end bg-[#f1f1f1] rounded-2xl overflow-hidden">
           <Image
             src="/assets/images/about-mockup.webp"
             alt="About Mockup"

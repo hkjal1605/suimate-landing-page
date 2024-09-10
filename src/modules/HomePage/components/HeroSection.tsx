@@ -6,10 +6,10 @@ const HeroSection = () => {
       <div className="bg-black-1000 bg-opacity-15 py-1.5 px-3 rounded-full -mb-3">
         <p className="text-sm text-black-1000">Meet insiDeX</p>
       </div>
-      <p className="text-black-1000 text-[90px] tracking-[-2px] leading-[110px] text-center">
+      <p className="text-black-1000 text-5xl md:text-6xl lg:text-[90px] tracking-[-2px] lg:leading-[110px] text-center">
         Enhance your DeFi <br /> strategies on Sui
       </p>
-      <p className="text-xl text-black-1000 text-opacity-80">
+      <p className="text-xl text-center text-black-1000 text-opacity-80">
         insiDeX lets you analyze, copy, and gain insights into Sui DeFi
         activity.
       </p>
