@@ -1,4 +1,6 @@
-import React from 'react';
+'use client';
+
+import React, { useEffect, useState } from 'react';
 
 import Image from 'next/image';
 
@@ -9,6 +11,12 @@ import AboutSection from './components/AboutSection';
 import HeroSection from './components/HeroSection';
 
 const HomePageModule = () => {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   return (
     <div className="w-full min-h-[50000px] relative">
       <HeroSection />
@@ -23,7 +31,7 @@ const HomePageModule = () => {
           style={{ width: '100%', objectFit: 'cover' }}
         />
       </div>
-      {typeof window !== 'undefined' ? <AboutSection /> : null}
+      {isClient ? <AboutSection /> : null}
 
       {/* <FeaturesSection />
       <BenefitsSection />
