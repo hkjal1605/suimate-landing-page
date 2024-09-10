@@ -56,10 +56,10 @@ const AboutSection = () => {
                 : `${window?.innerHeight * 0.35}px`,
         zIndex: scrollY <= window?.innerHeight * 0.65 ? 20 : 150,
         transition:
-          scrollY > window?.innerWidth * 1.7 ? 'all 0.8s ease-in-out' : 'none'
+          scrollY > window?.innerWidth * 1.5 ? 'all 0.8s ease-in-out' : 'none'
       }}
     >
-      {scrollY > window?.innerWidth * 1.7 ? (
+      {scrollY > window?.innerWidth * 1.5 ? (
         <div className="w-full h-full flex justify-between items-start max-w-[1250px] gap-10 animate-fadeIn transition-all duration-300">
           <div className="flex flex-col items-start justify-start gap-5 pt-[72px]">
             <div className="px-2 py-0.5 bg-black-200 bg-opacity-15 rounded-full">
