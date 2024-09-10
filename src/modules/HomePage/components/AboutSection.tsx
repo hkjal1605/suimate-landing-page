@@ -95,10 +95,10 @@ const AboutSection = () => {
           <div className="px-2 py-0.5 bg-black-200 bg-opacity-15 rounded-full">
             <p className="uppercase text-sm text-black-100">About</p>
           </div>
-          <p className="whitespace-nowrap text-4xl text-black-100">
+          <p className="md:whitespace-nowrap text-4xl text-black-100">
             What is insiDeX?
           </p>
-          <p className="whitespace-nowrap text-black-300 text-opacity-80 text-xl">
+          <p className="lg:whitespace-nowrap text-black-300 text-opacity-80 text-xl">
             Built to enable users to analyze and get insights <br /> on DeFi
             activity happening across all the decentralized <br /> spot and
             perpetual exchanges on Sui.
