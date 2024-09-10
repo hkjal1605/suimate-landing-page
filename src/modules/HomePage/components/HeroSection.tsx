@@ -19,12 +19,12 @@ const HeroSection = () => {
       </p>
       <PrimaryButton text="Launch App" />
       <Image
-        src="/assets/images/hero-mockup.png"
+        src="/assets/images/hero-mockup.webp"
         alt="hero-mockup"
         width={0}
         height={0}
         sizes="100vw"
-        style={{ width: '100%', height: '100vh', objectFit: 'cover' }}
+        style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
       />
     </div>
   );
