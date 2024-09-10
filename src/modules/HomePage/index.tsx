@@ -3,9 +3,9 @@ import React from 'react';
 import Image from 'next/image';
 
 import AboutSection from './components/AboutSection';
-// import BenefitsSection from './components/BenefitsSection';
-// import FeaturesSection from './components/FeaturesSection';
-// import Footer from './components/Footer';
+import BenefitsSection from './components/BenefitsSection';
+import FeaturesSection from './components/FeaturesSection';
+import Footer from './components/Footer';
 import HeroSection from './components/HeroSection';
 
 const HomePageModule = () => {
@@ -17,7 +17,7 @@ const HomePageModule = () => {
 
   return (
     // <div className="w-full min-h-[50000px] relative">
-    <div className="w-full">
+    <div className="w-full flex flex-col justify-start items-center">
       <HeroSection />
       <div className="w-screen absolute top-[calc(100vh-400px)] 2xl:top-[calc(100vh-600px)] left-[50%] translate-x-[-50%] z-[50]">
         <Image
@@ -31,11 +31,9 @@ const HomePageModule = () => {
         />
       </div>
       <AboutSection />
-      {/* {isClient ? <AboutSection /> : null} */}
-
-      {/* <FeaturesSection />
+      <FeaturesSection />
       <BenefitsSection />
-      <Footer /> */}
+      <Footer />
       {/* <ExtraFooter /> */}
     </div>
   );

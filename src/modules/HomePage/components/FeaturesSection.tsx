@@ -74,8 +74,8 @@ const FeaturesSection = () => {
   }, [selectedOption]);
 
   return (
-    <div className="w-full flex h-screen bg-black-100 px-[5%] justify-between items-center">
-      <div className="flex flex-col items-start justify-center gap-4">
+    <div className="w-full flex flex-col pt-20 pb-16 h-auto bg-transparent justify-start items-center max-w-[1250px] overflow-hidden">
+      <div className="flex w-full flex-col items-start justify-start gap-4">
         <div className="px-2 py-0.5 bg-black-1000 bg-opacity-15 rounded-full">
           <p className="uppercase text-sm text-black-1000">Features</p>
         </div>
@@ -83,7 +83,9 @@ const FeaturesSection = () => {
           Unlock the Power of insiDeX
         </p>
         <PrimaryButton text="Launch App" />
-        <div className="flex flex-col items-start justify-center gap-8 mt-5">
+      </div>
+      <div className="flex w-full justify-between items-stretch gap-10">
+        <div className="flex w-full flex-col items-start justify-start gap-8 mt-5">
           {FeatureOptions.map((option) => (
             <div
               className={`flex flex-col items-start justify-start gap-4 overflow-hidden ${selectedOption === option.key ? 'max-h-[120px]' : 'max-h-[24px]'} transition-all duration-300`}
@@ -119,22 +121,22 @@ const FeaturesSection = () => {
             </div>
           ))}
         </div>
-      </div>
-      <div className="w-[40%] bg-black-1000 bg-opacity-20 h-[80%] p-5 flex justify-center items-center relative">
-        <Swiper className="h-full bg-black-1000" loop>
-          {FeatureOptions.map((option) => (
-            <SwiperSlide key={option.key}>
-              <Image
-                src="/assets/images/features/1.png"
-                width={0}
-                height={0}
-                sizes="100%"
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                alt="feature"
-              />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+        <div className="w-1/2 bg-black-1000 bg-opacity-20 h-[calc(100%-8rem)] py-6 px-[80px] flex justify-center items-center relative">
+          <Swiper className="h-full bg-black-1000" loop>
+            {FeatureOptions.map((option) => (
+              <SwiperSlide key={option.key}>
+                <Image
+                  src="/assets/images/features/1.png"
+                  width={0}
+                  height={0}
+                  sizes="100%"
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  alt="feature"
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </div>
     </div>
   );
