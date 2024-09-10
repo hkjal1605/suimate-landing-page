@@ -11,14 +11,14 @@ const AboutSection = () => {
   const [size, setSize] = useState([150, 150]);
 
   const handleScroll = () => {
-    setScrollY(window.scrollY);
+    setScrollY(window?.scrollY);
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    window?.addEventListener('scroll', handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window?.removeEventListener('scroll', handleScroll);
     };
   }, []);
 

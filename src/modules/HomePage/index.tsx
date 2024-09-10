@@ -23,7 +23,8 @@ const HomePageModule = () => {
           style={{ width: '100%', objectFit: 'cover' }}
         />
       </div>
-      <AboutSection />
+      {typeof window !== 'undefined' ? <AboutSection /> : null}
+
       {/* <FeaturesSection />
       <BenefitsSection />
       <Footer /> */}
