@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <div className="hero-section w-full flex flex-col min-h-screen max-h-auto justify-start items-center pt-[150px] xl:pt-[12vh] 2xl:pt-[25vh] gap-4 fixed top-0 z-10">
+    <div className="hero-section w-full flex flex-col min-h-screen max-h-auto justify-start items-center pt-[150px] xl:pt-[12vh] 2xl:pt-[25vh] gap-4 z-10">
       <div className="bg-black-1000 bg-opacity-15 py-1.5 px-3 rounded-full -mb-3">
         <p className="text-sm text-black-1000">Meet insiDeX</p>
       </div>

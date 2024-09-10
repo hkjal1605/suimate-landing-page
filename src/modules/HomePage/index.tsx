@@ -1,6 +1,4 @@
-'use client';
-
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 import Image from 'next/image';
 
@@ -11,16 +9,17 @@ import AboutSection from './components/AboutSection';
 import HeroSection from './components/HeroSection';
 
 const HomePageModule = () => {
-  const [isClient, setIsClient] = useState(false);
+  // const [isClient, setIsClient] = useState(false);
 
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
+  // useEffect(() => {
+  //   setIsClient(true);
+  // }, []);
 
   return (
-    <div className="w-full min-h-[50000px] relative">
+    // <div className="w-full min-h-[50000px] relative">
+    <div className="w-full">
       <HeroSection />
-      <div className="w-screen fixed top-[calc(100vh-400px)] 2xl:top-[calc(100vh-600px)] left-[50%] translate-x-[-50%] z-[50]">
+      <div className="w-screen absolute top-[calc(100vh-400px)] 2xl:top-[calc(100vh-600px)] left-[50%] translate-x-[-50%] z-[50]">
         <Image
           src="/assets/images/hero-mockup.webp"
           alt="hero-mockup"
@@ -31,7 +30,8 @@ const HomePageModule = () => {
           style={{ width: '100%', objectFit: 'cover' }}
         />
       </div>
-      {isClient ? <AboutSection /> : null}
+      <AboutSection />
+      {/* {isClient ? <AboutSection /> : null} */}
 
       {/* <FeaturesSection />
       <BenefitsSection />
