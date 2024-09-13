@@ -3,7 +3,7 @@
   "version": "3.43.0",
   "scripts": {
     "dev:spotlight": "spotlight-sidecar",
-    "dev:next": "next dev --port 42269",
+    "dev:next": "next dev --port 42268",
     "dev": "run-p dev:*",
     "build": "next build",
     "start": "next start",

@@ -13,48 +13,48 @@ const FeatureOptions = [
     key: 1,
     title: 'Analyze Perpetual Trades',
     description: [
-      'View on-chain data from traders in perpetual markets.',
-      'Gain insights into their performance, positions, and strategies.'
+      'View on-chain data DeFi activity in perpetual trades.',
+      "Gain insights into traders' performance, positions, and strategies."
     ]
   },
   {
     key: 2,
     title: 'Evaluate Spot Exchanges',
     description: [
-      'View on-chain data from traders in perpetual markets.',
-      'Gain insights into their performance, positions, and strategies.'
+      'Track spot exchanges being made on any DEX on Sui',
+      "Analyze trending coins, traders' activities and buy/sell strategies."
     ]
   },
   {
     key: 3,
     title: 'Rank Traders on Different Criteria',
     description: [
-      'View on-chain data from traders in perpetual markets.',
-      'Gain insights into their performance, positions, and strategies.'
+      'See how a trader ranks compared to other traders based on certain criteria.',
+      'Choose the trader you want to follow based on their performance, and their rank in a specific category.'
     ]
   },
   {
     key: 4,
-    title: 'Backtest Trading Strategies',
+    title: 'Track Liquidity in Pools',
     description: [
-      'View on-chain data from traders in perpetual markets.',
-      'Gain insights into their performance, positions, and strategies.'
+      'Keep a track of the most liquid and the most active pools on Sui.',
+      'Analyze the liquidity and trading volume of a pool before making a spot exchange.'
     ]
   },
   {
     key: 5,
-    title: 'Monitor and Track Performance',
+    title: 'Get Insights into a Liquidity Pools Market Share',
     description: [
-      'View on-chain data from traders in perpetual markets.',
-      'Gain insights into their performance, positions, and strategies.'
+      'Understand how much of the total swap volume on a token pair goes through a specific pool.',
+      'Keep track of open positions on a pool, and how much of the total liquidity is locked in that pool.'
     ]
   },
   {
     key: 6,
-    title: 'Explore Staking Strategies',
+    title: 'Understand the Market Sentiment',
     description: [
-      'View on-chain data from traders in perpetual markets.',
-      'Gain insights into their performance, positions, and strategies.'
+      'Quickly visualize the largest positions in the market by Open Interest.',
+      'Understand if the market is bullish or bearish in general, and how the sentiment is changing over time.'
     ]
   }
 ];
@@ -121,12 +121,12 @@ const FeaturesSection = () => {
             </div>
           ))}
         </div>
-        <div className="w-full lg:w-1/2 bg-black-1000 bg-opacity-20 h-[calc(100%-8rem)] py-4 px-4 lg:py-6 lg:px-[80px] flex justify-center items-center relative">
-          <Swiper className="h-full bg-black-1000" loop>
-            {FeatureOptions.map((option) => (
+        <div className="w-full lg:w-1/2 bg-black-1000 bg-opacity-20 h-[calc(100%-8rem)] max-h-[calc(100%-8rem)] py-4 px-4 lg:py-6 lg:px-[80px] flex justify-center items-center relative">
+          <Swiper className="h-full bg-transparent" loop>
+            {FeatureOptions.map((option, index) => (
               <SwiperSlide key={option.key}>
                 <Image
-                  src="/assets/images/features/1.png"
+                  src={`/assets/images/features/${index}.png`}
                   width={0}
                   height={0}
                   sizes="100%"
