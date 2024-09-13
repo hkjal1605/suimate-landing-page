@@ -8,8 +8,8 @@ import PrimaryButton from '../PrimaryButton';
 
 const Header = () => {
   return (
-    <div className="fixed top-0 w-full left-0 flex justify-between items-center py-5 z-50 backdrop-blur-[5px]">
-      <div className="w-full flex px-4 xl:px-0 justify-between items-center max-w-[1250px]">
+    <div className="fixed top-0 w-full left-[50%] translate-x-[-50%] flex justify-between items-center py-5 z-50 backdrop-blur-[5px] max-w-[1250px]">
+      <div className="w-full flex px-4 xl:px-0 justify-between items-center">
         <div className="flex justify-center items-center gap-1">
           <Image
             src="/assets/images/header-logo.svg"
