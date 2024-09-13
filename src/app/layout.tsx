@@ -55,7 +55,10 @@ export default function RootLayout(props: {
         property="og:description"
         content="Discover and analyze on-chain trading activity with insiDeX, designed for perpetual and spot DEXs on the Sui blockchain. Explore trader performance, evaluate strategies, and gain insights into market trends effortlessly. Don't be a noob trader your whole life, join insiDeX today!"
       />
-      <meta property="og:image" content="https://insiDeX.trade/meta.webp" />
+      <meta
+        property="og:image"
+        content="https://insiDeX.trade/meta-image.webp"
+      />
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:url" content="https://insiDeX.trade/" />
