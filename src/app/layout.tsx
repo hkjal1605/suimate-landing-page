@@ -70,7 +70,10 @@ export default function RootLayout(props: {
         name="twitter:description"
         content="Discover and analyze on-chain trading activity with insiDeX, designed for perpetual and spot DEXs on the Sui blockchain. Explore trader performance, evaluate strategies, and gain insights into market trends effortlessly. Don't be a noob trader your whole life, join insiDeX today!"
       />
-      <meta name="twitter:image" content="https://insiDeX.trade/meta.webp" />
+      <meta
+        name="twitter:image"
+        content="https://insiDeX.trade/meta-image.webp"
+      />
       <body>
         <ProgressBarProvider>
           <div className="relative w-full h-full flex flex-col items-center justify-center">
