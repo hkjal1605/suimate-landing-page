@@ -74,18 +74,20 @@ const FeaturesSection = () => {
   }, [selectedOption]);
 
   return (
-    <div className="w-full px-4 lg:px-0 flex flex-col pt-20 pb-16 h-auto bg-transparent justify-start items-center max-w-[1250px] overflow-hidden">
+    <div className="w-full px-4 lg:px-0 flex flex-col pt-20 pb-[100px] bg-transparent justify-start items-center max-w-[1250px] overflow-hidden gap-[72px]">
       <div className="flex w-full flex-col items-start justify-start gap-4">
-        <div className="px-2 py-0.5 bg-black-1000 bg-opacity-15 rounded-full">
-          <p className="uppercase text-sm text-black-1000">Features</p>
+        <div className="py-1.5 px-3 bg-black-1000 bg-opacity-15 rounded-full">
+          <p className="uppercase text-xs text-black-1000 font-[Sf-Mono]">
+            Features
+          </p>
         </div>
         <p className="lg:whitespace-nowrap text-4xl text-black-1000">
           Unlock the Power of insiDeX
         </p>
         <PrimaryButton text="Launch App" />
       </div>
-      <div className="flex flex-col lg:flex-row w-full justify-between items-stretch gap-10">
-        <div className="flex w-full flex-col items-start justify-start gap-8 mt-5">
+      <div className="flex flex-col lg:flex-row w-full justify-between items-stretch gap-[140px]">
+        <div className="flex w-full flex-col items-start justify-start gap-8">
           {FeatureOptions.map((option) => (
             <div
               className={`flex flex-col items-start justify-start gap-4 overflow-hidden ${selectedOption === option.key ? 'max-h-[120px]' : 'max-h-[24px]'} transition-all duration-300`}
@@ -121,7 +123,7 @@ const FeaturesSection = () => {
             </div>
           ))}
         </div>
-        <div className="w-full lg:w-1/2 bg-black-1000 bg-opacity-20 h-[calc(100%-8rem)] max-h-[calc(100%-8rem)] py-4 px-4 lg:py-6 lg:px-[80px] flex justify-center items-center relative">
+        <div className="w-full lg:w-[540px] h-[540px] bg-black-1000 bg-opacity-20 py-4 px-4 lg:py-6 lg:px-[80px] flex justify-center items-center relative rounded-2xl">
           <Swiper className="h-full bg-transparent" loop>
             {FeatureOptions.map((option, index) => (
               <SwiperSlide key={option.key}>

@@ -4,8 +4,10 @@ const BenefitsSection = () => {
   return (
     <div className="w-full px-4 lg:px-0 bg-black-1000 flex justify-center items-center">
       <div className="flex flex-col max-w-[1250px]  items-start justify-center w-full py-[150px] gap-5">
-        <div className="px-2 py-0.5 bg-black-200 bg-opacity-15 rounded-full">
-          <p className="uppercase text-sm text-black-100">Benefits</p>
+        <div className="py-1.5 px-3 bg-black-200 bg-opacity-15 rounded-full">
+          <p className="uppercase text-xs text-black-100 font-[Sf-Mono]">
+            Benefits
+          </p>
         </div>
         <p className="lg:whitespace-nowrap text-4xl text-black-100 mb-10">
           Benefits of Studying Big DeFi Players’ <br /> Trading and Investing

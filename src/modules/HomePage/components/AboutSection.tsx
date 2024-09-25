@@ -89,13 +89,15 @@ const AboutSection = () => {
   // );
 
   return (
-    <div className="flex w-full h-screen justify-center items-start py-16 px-4 lg:px-0 bg-black-1000 overflow-hidden">
-      <div className="w-full h-full flex flex-col lg:flex-row justify-between items-start max-w-[1250px] gap-10 animate-fadeIn transition-all duration-300">
+    <div className="flex w-full h-screen justify-center items-start py-16 xl:py-[100px] px-4 lg:px-0 bg-black-1000 overflow-hidden">
+      <div className="w-full h-full flex flex-col lg:flex-row justify-between items-start max-w-[1250px] gap-[140px] animate-fadeIn transition-all duration-300">
         <div className="flex flex-col items-start justify-start gap-5 pt-[72px]">
-          <div className="px-2 py-0.5 bg-black-200 bg-opacity-15 rounded-full">
-            <p className="uppercase text-sm text-black-100">About</p>
+          <div className="py-1.5 px-3 bg-black-200 bg-opacity-15 rounded-full">
+            <p className="text-xs text-black-100 font-[Sf-Mono] uppercase">
+              About
+            </p>
           </div>
-          <p className="md:whitespace-nowrap text-4xl text-black-100">
+          <p className="md:whitespace-nowrap text-4xl text-black-100 -mb-4">
             What is insiDeX?
           </p>
           <p className="lg:whitespace-nowrap text-black-300 text-opacity-80 text-xl">

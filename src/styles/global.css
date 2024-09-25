@@ -11,6 +11,24 @@
   font-stretch: 75% 125%;
 }
 
+@font-face {
+  font-family: 'SF-Mono';
+  src: url('./fonts/SFMonoRegular.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'SF-Mono';
+  src: url('./fonts/SFMonoMedium.otf') format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'SF-Mono';
+  src: url('./fonts/SFMonoSemibold.otf') format('opentype');
+  font-weight: 600;
+}
+
 html {
   font-family: 'Mona Sans';
 }
@@ -34,8 +52,7 @@ body {
   }
 
   .hero-section {
-    background: url('/assets/images/hero-bg.webp') no-repeat center center;
-    background-size: cover;
+    background: linear-gradient(180deg, #151515 0%, #686868 50%, #e9e9e9 100%);
   }
 
   .benefits-card-1 {
