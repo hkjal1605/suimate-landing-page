@@ -19,7 +19,7 @@ const HeroSection = () => {
         insiDeX lets you analyze, copy, and gain insights into Sui DeFi
         activity.
       </p>
-      <div className="mb-8 lg:-mb-[50px]">
+      <div className="mb-8 lg:-mb-[50px] z-[1000]">
         <PrimaryButton text="Launch App" />
       </div>
       <Image
@@ -28,7 +28,7 @@ const HeroSection = () => {
         width={0}
         height={0}
         sizes="100vw"
-        className="hidden lg:block z-[50] h-[600px]"
+        className="hidden lg:block z-[50] h-[600px]]"
         style={{ width: '100%', objectFit: 'cover' }}
       />
       <Image
