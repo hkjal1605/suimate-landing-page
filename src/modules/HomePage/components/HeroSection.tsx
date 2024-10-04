@@ -28,7 +28,7 @@ const HeroSection = () => {
         width={0}
         height={0}
         sizes="100vw"
-        className="hidden lg:block z-[50] h-[600px]"
+        className="hidden lg:block z-[50] h-[600px] mt-auto"
         style={{ width: '100%', objectFit: 'cover' }}
       />
       <Image
