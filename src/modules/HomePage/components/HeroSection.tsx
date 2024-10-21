@@ -19,9 +19,19 @@ const HeroSection = () => {
         insiDeX lets you analyze, copy, and gain insights into Sui DeFi
         activity.
       </p>
-      <div className="mb-8 lg:-mb-[50px] z-[1000]">
+      <div className="mb-8 z-[1000]">
         <PrimaryButton text="Launch App" />
       </div>
+      <p className="text-sm text-black-700 lg:-mt-[40px]">
+        Charts powered by{' '}
+        <a
+          href="https://www.tradingview.com/"
+          target="_blank"
+          className="underline text-blue-500"
+        >
+          TradingView
+        </a>
+      </p>
       <Image
         src="/assets/images/hero-mockup.webp"
         alt="hero-mockup"
