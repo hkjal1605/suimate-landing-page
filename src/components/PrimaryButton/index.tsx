@@ -14,7 +14,7 @@ const PrimaryButton = (props: IPropType) => {
 
   return (
     <button
-      className={`${theme === 'dark' ? 'bg-black-100 text-black-1000' : 'bg-black-1000 text-black-100'} text-[13px] h-8 px-5 rounded cursor-pointer border-none outline-none z-40`}
+      className={`${theme === 'dark' ? 'bg-black-100 text-black-1000' : 'bg-black-1000 text-black-100'} text-[13px] h-8 px-5 rounded-full cursor-pointer border-none outline-none z-40`}
       onClick={() => {
         if (onClick) onClick();
         window.open('https://app.insidex.trade', '_blank');

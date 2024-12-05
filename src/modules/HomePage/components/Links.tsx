@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Links = () => {
   return (
-    <div className="w-full px-4 lg:px-0 flex flex-col items-center justify-start bg-transparent max-w-[1250px] pt-[140px] pb-12">
+    <div className="w-full px-4 lg:px-0 flex flex-col items-center justify-start bg-black-50 max-w-[1250px] pt-[140px] pb-12 z-30">
       <div className="flex flex-col lg:flex-row gap-10 lg:gap-0 w-full justify-between items-start">
         <Image
           src="/assets/images/header-logo.svg"
