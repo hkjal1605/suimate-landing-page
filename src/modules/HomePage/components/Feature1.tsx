@@ -5,14 +5,14 @@ import Image from 'next/image';
 const Feature1 = () => {
   return (
     <div className="flex flex-col w-full h-screen justify-center items-center gap-2 py-8 pt-14 px-4 lg:px-0 overflow-hidden z-10">
-      <p className="text-4xl text-blue-300 text-center">
+      <p className="text-xl lg:text-4xl text-blue-300 text-center">
         Find out what&apos;s new, what&apos;s trending, and what&apos;s next{' '}
         <br />
         Complete market analysis at your fingertips
       </p>
-      <p className="text-base text-black-700 mb-5">
-        Take a quick glance at the market sentiment, which coin&apos;s pumped,
-        wha
+      <p className="text-base text-center text-black-700 mb-5">
+        Take a quick glance at the market sentiment, which coin&apos;s pumped
+        and what dumped
       </p>
       <div className="w-full flex flex-col h-full items-center justify-start overflow-hidden rounded-3xl max-w-[1200px]">
         <div className="flex justify-center items-center w-full h-[80%] relative overflow-hidden">

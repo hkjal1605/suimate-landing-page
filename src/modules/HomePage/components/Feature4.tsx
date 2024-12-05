@@ -5,11 +5,11 @@ import Image from 'next/image';
 const Feature4 = () => {
   return (
     <div className="flex flex-col w-full h-screen justify-center items-center gap-2 py-8 pt-12 px-4 lg:px-0 overflow-hidden z-10">
-      <p className="text-4xl text-orange-300 text-center">
+      <p className="text-xl lg:text-4xl text-orange-300 text-center">
         Find the most profitable traders on Sui <br />
         Check the PnL history, study their strategy
       </p>
-      <p className="text-base text-black-700 mb-5">
+      <p className="text-center text-base text-black-700 mb-5">
         insiDeX offers a robust copy-trading infrastructure for Spot and
         Perpetual markets
       </p>

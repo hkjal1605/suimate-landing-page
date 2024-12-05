@@ -7,7 +7,7 @@ const Links = () => {
   return (
     <div className="w-full px-4 lg:px-0 flex flex-col items-center justify-start bg-black-50 pt-[140px] pb-12 z-30">
       <div className="max-w-[1200px] w-full flex flex-col items-center justify-start">
-        <div className="flex flex-col lg:flex-row gap-10 lg:gap-0 w-full justify-between items-start">
+        <div className="flex flex-col lg:flex-row gap-10 lg:gap-0 w-full justify-between items-center md:items-start">
           <Image
             src="/assets/images/header-logo.svg"
             alt="logo"
@@ -16,8 +16,8 @@ const Links = () => {
             sizes="100%"
             className="h-8 w-auto"
           />
-          <div className="flex items-start justify-end h-[254px]">
-            <div className="flex flex-col items-start justify-start gap-3 w-[180px]">
+          <div className="flex flex-col md:flex-row mb-14 mt-20 md:my-0 gap-8 md:gap-0 items-center w-full md:items-start justify-end h-[254px]">
+            <div className="flex flex-col items-center md:items-start justify-start gap-3 w-[180px]">
               <p className="text-sm text-black-900 font-medium">Product</p>
               <Link href="https://app.insidex.trade" target="_blank">
                 <p className="text-sm text-black-700">Perps</p>
@@ -29,7 +29,7 @@ const Links = () => {
                 <p className="text-sm text-black-700">Liquidity Supply</p>
               </Link>
             </div>
-            <div className="flex flex-col items-start justify-start gap-3 w-[180px]">
+            <div className="flex flex-col items-center md:items-start justify-start gap-3 w-[180px]">
               <p className="text-sm text-black-900 font-medium">Resources</p>
               <p className="text-sm text-black-700">Docs</p>
               <p className="text-sm text-black-700">Terms of service</p>

@@ -7,7 +7,7 @@ import PrimaryButton from '@/components/PrimaryButton';
 const Footer = () => {
   return (
     <div className="w-full flex flex-col items-center justify-center bg-black-50 px-4 lg:px-0 z-30">
-      <div className="relative w-full md:h-screen flex flex-col items-start md:items-center justify-start pt-[18%] gap-1">
+      <div className="relative w-full md:h-screen flex flex-col items-center justify-start pt-[18%] gap-1">
         <Image
           alt="footer-mockup"
           src="/assets/images/footer-mockup.png"
@@ -17,10 +17,10 @@ const Footer = () => {
           className="absolute top-0 left-0 z-10 hidden md:block"
           style={{ width: '100%', height: '100vh', objectFit: 'cover' }}
         />
-        <p className="text-black-1000 text-2xl">
+        <p className="text-black-1000 text-2xl text-center">
           Ready to Transform Your DeFi Strategy?
         </p>
-        <p className="text-sm text-black-1000 text-opacity-70 mb-5 text-left md:text-center">
+        <p className="text-center text-sm text-black-1000 text-opacity-70 mb-5 text-left md:text-center">
           Unlock insights, track top players, and make smarter decisions.{' '}
         </p>
         <PrimaryButton text="Launch App" />

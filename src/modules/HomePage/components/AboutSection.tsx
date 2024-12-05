@@ -14,7 +14,7 @@ const AboutSection = () => {
           sizes="100%"
           className="w-full h-full absolute top-0 left-0 object-cover z-10"
         />
-        <div className="absolute z-20 bg-gradient-about top-0 left-0 w-full h-full flex flex-col items-center justify-start p-10 gap-2">
+        <div className="absolute z-20 bg-gradient-about top-0 left-0 w-full h-full flex flex-col items-center justify-start py-10 px-4 lg:px-10 gap-2">
           <p className="text-black-900 text-3xl lg:text-5xl 2xl:text-6xl">
             What is insiDeX
           </p>

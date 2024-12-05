@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Feature2 = () => {
   return (
     <div className="flex flex-col w-full h-screen justify-center items-center gap-2 py-8 pt-14 px-4 lg:px-0 overflow-hidden z-10">
-      <p className="text-4xl text-brown-300 text-center">
+      <p className="text-xl lg:text-4xl text-brown-300 text-center">
         Analyze the price action, form your strategy
         <br />
         And place a buy/sell order, all at one place
