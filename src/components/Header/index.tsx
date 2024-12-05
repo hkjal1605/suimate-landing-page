@@ -32,12 +32,12 @@ const Header = () => {
               </div>
             </a>
             <a
-              href="https://app.insidex.trade/spot"
+              href="https://app.insidex.trade/memezone"
               target="_blank"
               rel="noreferrer"
             >
               <div className="px-4 cursor-pointer">
-                <p className="text-sm text-black-900">Spot</p>
+                <p className="text-sm text-black-900">Meme Zone</p>
               </div>
             </a>
             <a
@@ -46,16 +46,7 @@ const Header = () => {
               rel="noreferrer"
             >
               <div className="px-4 cursor-pointer">
-                <p className="text-sm text-black-900">Liquidity Supply</p>
-              </div>
-            </a>
-            <a
-              href="https://app.insidex.trade/perps"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="px-4 cursor-pointer">
-                <p className="text-sm text-black-900">Perps</p>
+                <p className="text-sm text-black-900">Copy Trading</p>
               </div>
             </a>
           </div>
