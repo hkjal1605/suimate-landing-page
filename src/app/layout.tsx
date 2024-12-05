@@ -38,8 +38,13 @@ export default function RootLayout(props: {
 }) {
   return (
     <html lang={props.params.locale}>
-      <title>insiDeX - DeFi Traders Analytics on SUI</title>
-      <meta name="title" content="insiDeX - DeFi Traders Analytics on SUI" />
+      <title>
+        insiDeX - The definitive platform for all things DeFi on Sui
+      </title>
+      <meta
+        name="title"
+        content="insiDeX - The definitive platform for all things DeFi on Sui"
+      />
       <meta
         name="description"
         content="Discover and analyze on-chain trading activity with insiDeX, designed for perpetual and spot DEXs on the Sui blockchain. Explore trader performance, evaluate strategies, and gain insights into market trends effortlessly. Don't be a noob trader your whole life, join insiDeX today!"
@@ -49,7 +54,7 @@ export default function RootLayout(props: {
       <meta property="og:url" content="https://insiDeX.trade/" />
       <meta
         property="og:title"
-        content="insiDeX - DeFi Traders Analytics on SUI"
+        content="insiDeX - The definitive platform for all things DeFi on Sui"
       />
       <meta
         property="og:description"
@@ -64,7 +69,7 @@ export default function RootLayout(props: {
       <meta name="twitter:url" content="https://insiDeX.trade/" />
       <meta
         name="twitter:title"
-        content="insiDeX - DeFi Traders Analytics on SUI"
+        content="insiDeX - The definitive platform for all things DeFi on Sui"
       />
       <meta
         name="twitter:description"
