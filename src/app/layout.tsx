@@ -38,47 +38,47 @@ export default function RootLayout(props: {
 }) {
   return (
     <html lang={props.params.locale}>
-      <title>
-        insiDeX - The definitive platform for all things DeFi on Sui
-      </title>
+      <head>
+        <script
+          type="text/javascript"
+          src="/charting_library/charting_library.standalone.js"
+          defer
+        />
+      </head>
+      <title>Nexa - Trading Terminal and Data Analytics on Sui</title>
       <meta
         name="title"
-        content="insiDeX - The definitive platform for all things DeFi on Sui"
+        content="Nexa - Trading Terminal and Data Analytics on Sui"
       />
       <meta
         name="description"
-        content="Discover and analyze on-chain trading activity with insiDeX, designed for perpetual and spot DEXs on the Sui blockchain. Explore trader performance, evaluate strategies, and gain insights into market trends effortlessly. Don't be a noob trader your whole life, join insiDeX today!"
+        content="Elevate your crypto trading with NEXA, a powerful terminal and data analytics tool built on the Sui blockchain. Trade smarter, analyze better, and stay ahead."
       />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://insiDeX.trade/" />
+      <meta property="og:url" content="https://app.nexa.xyz/" />
       <meta
         property="og:title"
-        content="insiDeX - The definitive platform for all things DeFi on Sui"
+        content="Nexa - Trading Terminal and Data Analytics on Sui"
       />
       <meta
         property="og:description"
-        content="Discover and analyze on-chain trading activity with insiDeX, designed for perpetual and spot DEXs on the Sui blockchain. Explore trader performance, evaluate strategies, and gain insights into market trends effortlessly. Don't be a noob trader your whole life, join insiDeX today!"
+        content="Elevate your crypto trading with NEXA, a powerful terminal and data analytics tool built on the Sui blockchain. Trade smarter, analyze better, and stay ahead."
       />
-      <meta
-        property="og:image"
-        content="https://insiDeX.trade/meta-image.webp"
-      />
+      <meta property="og:image" content="https://nexa.xyz/meta-image.webp" />
 
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:url" content="https://insiDeX.trade/" />
+      <meta name="twitter:url" content="https://app.nexa.xyz/" />
       <meta
         name="twitter:title"
-        content="insiDeX - The definitive platform for all things DeFi on Sui"
+        content="Nexa - Trading Terminal and Data Analytics on Sui"
       />
       <meta
         name="twitter:description"
-        content="Discover and analyze on-chain trading activity with insiDeX, designed for perpetual and spot DEXs on the Sui blockchain. Explore trader performance, evaluate strategies, and gain insights into market trends effortlessly. Don't be a noob trader your whole life, join insiDeX today!"
+        content="Elevate your crypto trading with NEXA, a powerful terminal and data analytics tool built on the Sui blockchain. Trade smarter, analyze better, and stay ahead."
       />
-      <meta
-        name="twitter:image"
-        content="https://insiDeX.trade/meta-image.webp"
-      />
+      <meta name="twitter:image" content="https://nexa.xyz/meta-image.webp" />
+
       <body>
         <ProgressBarProvider>
           <div className="relative w-full h-full flex flex-col items-center justify-center">

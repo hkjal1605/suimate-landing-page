@@ -14,7 +14,7 @@ const Header = () => {
           <div className="flex justify-center items-center gap-1">
             <Image
               src="/assets/images/header-logo.svg"
-              alt="insiDeX"
+              alt="Nexa"
               width={0}
               height={0}
               sizes="100%"
@@ -22,17 +22,13 @@ const Header = () => {
             />
           </div>
           <div className="hidden md:flex justify-center items-center">
-            <a
-              href="https://app.insidex.trade"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://app.nexa.xyz" target="_blank" rel="noreferrer">
               <div className="px-4 cursor-pointer">
                 <p className="text-sm text-black-900">Coins</p>
               </div>
             </a>
             <a
-              href="https://app.insidex.trade/memezone"
+              href="https://app.nexa.xyz/memezone"
               target="_blank"
               rel="noreferrer"
             >
@@ -41,12 +37,12 @@ const Header = () => {
               </div>
             </a>
             <a
-              href="https://app.insidex.trade/spot"
+              href="https://app.nexa.xyz/leaderboard"
               target="_blank"
               rel="noreferrer"
             >
               <div className="px-4 cursor-pointer">
-                <p className="text-sm text-black-900">Copy Trading</p>
+                <p className="text-sm text-black-900">Leaderboard</p>
               </div>
             </a>
           </div>

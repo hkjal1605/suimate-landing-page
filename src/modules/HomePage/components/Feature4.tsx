@@ -10,8 +10,8 @@ const Feature4 = () => {
         Check the PnL history, study their strategy
       </p>
       <p className="text-center text-base text-black-700 mb-5">
-        insiDeX offers a robust copy-trading infrastructure for Spot and
-        Perpetual markets
+        Nexa offers a robust copy-trading infrastructure for Spot and Perpetual
+        markets
       </p>
       <div className="w-full flex flex-col h-full items-center justify-start overflow-hidden rounded-3xl max-w-[1200px]">
         <div className="flex justify-center items-center w-full h-[80%] relative overflow-hidden">

@@ -16,10 +16,10 @@ const AboutSection = () => {
         />
         <div className="absolute z-20 bg-gradient-about top-0 left-0 w-full h-full flex flex-col items-center justify-start py-10 px-4 lg:px-10 gap-2">
           <p className="text-black-900 text-3xl lg:text-5xl 2xl:text-6xl">
-            What is insiDeX
+            What is Nexa
           </p>
           <p className="text-base lg:text-2xl text-black-800 text-center">
-            insiDeX is a platform that provides you with data-driven insights{' '}
+            Nexa is a platform that provides you with data-driven insights{' '}
             <br />
             into the world of decentralized trading on Sui <br />
             <br /> We empower a safe and informed trading journey for our users{' '}

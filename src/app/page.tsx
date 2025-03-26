@@ -2,9 +2,9 @@ import HomePageModule from '@/modules/HomePage';
 
 export async function generateMetadata() {
   return {
-    title: 'insiDeX - DeFi Traders Analytics on SUI',
+    title: 'Nexa - Trading Terminal and Data Analytics on Sui',
     description:
-      "Discover and analyze on-chain trading activity with insiDeX, designed for perpetual and spot DEXs on the Sui blockchain. Explore trader performance, evaluate strategies, and gain insights into market trends effortlessly. Don't be a noob trader your whole life, join insiDeX today!"
+      'Elevate your crypto trading with NEXA, a powerful terminal and data analytics tool built on the Sui blockchain. Trade smarter, analyze better, and stay ahead.'
   };
 }
 

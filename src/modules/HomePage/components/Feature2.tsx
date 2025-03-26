@@ -11,8 +11,8 @@ const Feature2 = () => {
         And place a buy/sell order, all at one place
       </p>
       <p className="text-base text-black-700 mb-5 text-center">
-        With insiDeX, you can view the price charts and other essential
-        information about any coin
+        With Nexa, you can view the price charts and other essential information
+        about any coin
         <br /> and buy or sell them instantly with the best conversion rates on
         Sui
       </p>

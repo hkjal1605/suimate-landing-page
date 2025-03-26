@@ -19,13 +19,13 @@ const Links = () => {
           <div className="flex flex-col md:flex-row mb-14 mt-20 md:my-0 gap-8 md:gap-0 items-center w-full md:items-start justify-end h-[254px]">
             <div className="flex flex-col items-center md:items-start justify-start gap-3 w-[180px]">
               <p className="text-sm text-black-900 font-medium">Product</p>
-              <Link href="https://app.insidex.trade" target="_blank">
+              <Link href="https://app.nexa.xyz" target="_blank">
                 <p className="text-sm text-black-700">Perps</p>
               </Link>
-              <Link href="https://app.insidex.trade/spot" target="_blank">
+              <Link href="https://app.nexa.xyz/spot" target="_blank">
                 <p className="text-sm text-black-700">Spot</p>
               </Link>
-              <Link href="https://app.insidex.trade/liquidity" target="_blank">
+              <Link href="https://app.nexa.xyz/liquidity" target="_blank">
                 <p className="text-sm text-black-700">Liquidity Supply</p>
               </Link>
             </div>
@@ -43,7 +43,7 @@ const Links = () => {
         </div>
         <div className="flex w-full justify-between items-center">
           <div className="flex justify-start items-center gap-6">
-            <Link href="https://x.com/insidex_trade" target="_blank">
+            <Link href="https://x.com/nexaxyz" target="_blank">
               <Image
                 src="/assets/images/twitter.svg"
                 alt="twitter"
@@ -65,7 +65,7 @@ const Links = () => {
               />
             </Link>
           </div>
-          <p className="text-sm text-black-600">© 2024 insiDeX</p>
+          <p className="text-sm text-black-600">© 2024 Nexa</p>
         </div>
       </div>
     </div>

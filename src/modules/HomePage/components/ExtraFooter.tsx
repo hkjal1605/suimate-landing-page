@@ -12,7 +12,7 @@ const ExtraFooter = () => {
           width={200}
           height={200}
         />
-        <p className="text-[120px] text-black-1000">insiDeX</p>
+        <p className="text-[120px] text-black-1000">Nexa</p>
       </div>
       <div className="flex flex-col w-full justify-end items-center">
         <Image
