@@ -1,6 +1,7 @@
 import { withSentryConfig } from '@sentry/nextjs';
 import withBundleAnalyzer from '@next/bundle-analyzer';
 import withNextIntl from 'next-intl/plugin';
+import createMDX from '@next/mdx';
 
 const withNextIntlConfig = withNextIntl('./src/libs/i18n.ts');
 
@@ -9,7 +10,7 @@ const bundleAnalyzer = withBundleAnalyzer({
 });
 
 /** @type {import('next').NextConfig} */
-export default withSentryConfig(
+const nextConfig = withSentryConfig(
   bundleAnalyzer(
     withNextIntlConfig({
       eslint: {
@@ -79,3 +80,10 @@ export default withSentryConfig(
     automaticVercelMonitors: true
   }
 );
+
+const withMDX = createMDX({
+  // Add markdown plugins here, as desired
+});
+
+// Merge MDX config with Next.js config
+export default withMDX(nextConfig);

@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss';
 
 export default {
+  plugins: [require('@tailwindcss/typography')],
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     fontSize: {
@@ -87,6 +88,5 @@ export default {
         fadeOut: 'fade-out 0.5s ease-in-out'
       }
     }
-  },
-  plugins: []
+  }
 } satisfies Config;

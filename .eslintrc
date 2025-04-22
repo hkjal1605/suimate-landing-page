@@ -46,6 +46,7 @@
         "@typescript-eslint/comma-dangle": "off", // Avoid conflict rule between Eslint and Prettier
         "@typescript-eslint/consistent-type-imports": "error", // Ensure `import type` is used when it's necessary\
         "no-unsafe-optional-chaining": "off",
+        "global-require": "off",
         "no-restricted-syntax": [
           "error",
           "ForInStatement",
