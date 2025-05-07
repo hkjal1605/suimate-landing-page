@@ -20,24 +20,32 @@ const Links = () => {
             <div className="flex flex-col items-center md:items-start justify-start gap-3 w-[180px]">
               <p className="text-sm text-black-900 font-medium">Product</p>
               <Link href="https://app.nexa.xyz" target="_blank">
-                <p className="text-sm text-black-700">Perps</p>
+                <p className="text-sm text-black-700">Coins on Sui</p>
               </Link>
-              <Link href="https://app.nexa.xyz/spot" target="_blank">
-                <p className="text-sm text-black-700">Spot</p>
+              <Link href="https://app.nexa.xyz/leaderboard" target="_blank">
+                <p className="text-sm text-black-700">Leaderboard</p>
               </Link>
-              <Link href="https://app.nexa.xyz/liquidity" target="_blank">
-                <p className="text-sm text-black-700">Liquidity Supply</p>
+              <Link href="https://app.nexa.xyz/memezone" target="_blank">
+                <p className="text-sm text-black-700">Memezone</p>
               </Link>
             </div>
             <div className="flex flex-col items-center md:items-start justify-start gap-3 w-[180px]">
               <p className="text-sm text-black-900 font-medium">Resources</p>
-              <p className="text-sm text-black-700">Docs</p>
-              <p className="text-sm text-black-700">Terms of service</p>
+              <Link href="https://docs.insidex.trade" target="_blank">
+                <p className="text-sm text-black-700">Docs</p>
+              </Link>
+              <Link href="/terms-and-conditions">
+                <p className="text-sm text-black-700">Terms and Conditions</p>
+              </Link>
+              <Link href="/privacy-policy">
+                <p className="text-sm text-black-700">Privacy Policy</p>
+              </Link>
             </div>
             <div className="flex flex-col items-start justify-start gap-3 w-auto">
               <p className="text-sm text-black-900 font-medium">Company</p>
-              <p className="text-sm text-black-700">About Us</p>
-              <p className="text-sm text-black-700">Brand Kit</p>
+              <Link href="/support">
+                <p className="text-sm text-black-700">Support</p>
+              </Link>
             </div>
           </div>
         </div>
