@@ -16,7 +16,7 @@ const Links = () => {
             sizes="100%"
             className="h-8 w-auto"
           />
-          <div className="flex flex-col md:flex-row mb-14 mt-20 md:my-0 gap-8 md:gap-0 items-center w-full md:items-start justify-end h-[254px]">
+          <div className="flex flex-col md:flex-row mt-20 md:my-0 gap-8 md:gap-0 items-center w-full md:items-start justify-end h-[214px]">
             <div className="flex flex-col items-center md:items-start justify-start gap-3 w-[180px]">
               <p className="text-sm text-black-900 font-medium">Product</p>
               <Link href="https://app.nexa.xyz" target="_blank">
@@ -49,6 +49,20 @@ const Links = () => {
             </div>
           </div>
         </div>
+        <div className="flex justify-end items-center mb-10">
+          <p className="text-sm text-black-700 max-w-[35%]">
+            Nexa has partnered with TradingView for its charting technology. A
+            global trading platform that enables users to track{' '}
+            <a
+              href="https://www.tradingview.com/symbols/BTCUSD/"
+              target="_blank"
+              className="text-black-900 underline"
+            >
+              Btc/USD charts
+            </a>{' '}
+            seamlessly and offers cutting edge analytical tools
+          </p>
+        </div>
         <div className="flex w-full justify-between items-center">
           <div className="flex justify-start items-center gap-6">
             <Link href="https://x.com/nexaxyz" target="_blank">
@@ -73,7 +87,9 @@ const Links = () => {
               />
             </Link>
           </div>
-          <p className="text-sm text-black-600">© 2024 Nexa</p>
+          <p className="text-sm text-black-600">
+            Published by Insidex Labs Pte. Ltd.
+          </p>
         </div>
       </div>
     </div>
