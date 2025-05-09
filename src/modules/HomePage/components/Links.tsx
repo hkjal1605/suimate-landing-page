@@ -49,20 +49,6 @@ const Links = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-end items-center mb-10">
-          <p className="text-sm text-black-700 max-w-[35%]">
-            Nexa has partnered with TradingView for its charting technology. A
-            global trading platform that enables users to track{' '}
-            <a
-              href="https://www.tradingview.com/symbols/BTCUSD/"
-              target="_blank"
-              className="text-black-900 underline"
-            >
-              Btc/USD charts
-            </a>{' '}
-            seamlessly and offers cutting edge analytical tools
-          </p>
-        </div>
         <div className="flex w-full justify-between items-center">
           <div className="flex justify-start items-center gap-6">
             <Link href="https://x.com/nexaxyz" target="_blank">
